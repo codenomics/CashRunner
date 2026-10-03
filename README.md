@@ -4,7 +4,38 @@
 >
 > Use at your own risk. I offer no warranty or guarantees for this software.
 
+## Download
+
+**Latest version: v1.4** (Oct 3, 2026)
+
+- [CashRunner_v1.4_no-install.zip](https://github.com/codenomics/CashRunner/releases/download/v1.4/CashRunner_v1.4_no-install.zip) - 112 KB
+- [CashRunner_v1.4_Setup.exe](https://github.com/codenomics/CashRunner/releases/download/v1.4/CashRunner_v1.4_Setup.exe) - 187 KB
+
+What's new in v1.4:
+
+- CashRunner now checks GitHub for a newer version when it starts; it never opens a window by itself, just a note in the status bar
+- Update now saves your budget, downloads the new installer and runs it (installed copies)
+- Settings has a new Update check switch (At startup / Off) and a button to check any time
+
+Older versions are on the [Releases page](https://github.com/codenomics/CashRunner/releases).
+
 ## Getting started
+
+### Installer (recommended)
+
+1. Download the file ending in `_Setup.exe` above.
+2. Double-click it and click Install. It installs just for you - no admin password needed - and adds Start menu and Desktop shortcuts.
+3. To remove it later: Windows Settings > Apps, find CashRunner and click Uninstall.
+
+### No install (portable zip)
+
+1. Download the file ending in `_no-install.zip` above.
+2. Right-click it > Extract All, and pick a folder. Don't run it from inside the zip.
+3. Open the folder and double-click the app's .exe. Nothing is installed; delete the folder to remove it.
+
+Windows says "Windows protected your PC"? Click More info > Run anyway. It shows that for apps without a paid signing certificate.
+
+## More details
 
 ```
 CASHRUNNER
@@ -91,6 +122,13 @@ PRIVACY AND GOOGLE DRIVE
   password. The password can't be recovered if you forget it.
 - Settings > LOCKED COPY saves or opens a password-locked copy anywhere.
 - Settings > BACKUPS: a copy is kept each day (last 30 days).
+- Settings > UPDATE CHECK: At startup (default) or Off, and an Update button to check
+  now. CashRunner only asks GitHub whether a newer version exists (it reads the
+  public release page; your budget is never sent anywhere). It never opens a
+  window by itself: a note appears in the status bar, and from the taskbar
+  corner as a small pop-up. With the installer, Update now saves your budget,
+  downloads the new installer and runs it; with the no-install zip it opens the
+  download page.
 
 
 GOOD TO KNOW
