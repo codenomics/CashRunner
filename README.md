@@ -6,16 +6,15 @@
 
 ## Download
 
-**Latest version: v1.4** (Oct 3, 2026)
+**Latest version: v1.5** (Oct 8, 2026)
 
-- [CashRunner_v1.4_no-install.zip](https://github.com/codenomics/CashRunner/releases/download/v1.4/CashRunner_v1.4_no-install.zip) - 112 KB
-- [CashRunner_v1.4_Setup.exe](https://github.com/codenomics/CashRunner/releases/download/v1.4/CashRunner_v1.4_Setup.exe) - 187 KB
+- [CashRunner_v1.5_no-install.zip](https://github.com/codenomics/CashRunner/releases/download/v1.5/CashRunner_v1.5_no-install.zip) - 112 KB
+- [CashRunner_v1.5_Setup.exe](https://github.com/codenomics/CashRunner/releases/download/v1.5/CashRunner_v1.5_Setup.exe) - 187 KB
+- [CashRunner_v1.5_source.zip](https://github.com/codenomics/CashRunner/releases/download/v1.5/CashRunner_v1.5_source.zip) - 99 KB
 
-What's new in v1.4:
+What's new in v1.5:
 
-- CashRunner now checks GitHub for a newer version when it starts; it never opens a window by itself, just a note in the status bar
-- Update now saves your budget, downloads the new installer and runs it (installed copies)
-- Settings has a new Update check switch (At startup / Off) and a button to check any time
+- No app changes. Uploading Code**
 
 Older versions are on the [Releases page](https://github.com/codenomics/CashRunner/releases).
 
@@ -34,6 +33,10 @@ Older versions are on the [Releases page](https://github.com/codenomics/CashRunn
 3. Open the folder and double-click the app's .exe. Nothing is installed; delete the folder to remove it.
 
 Windows says "Windows protected your PC"? Click More info > Run anyway. It shows that for apps without a paid signing certificate.
+
+## Source code
+
+Want to see how it works, or build it yourself? Download the file ending in `_source.zip` above, extract it and double-click `Build.bat`. It only uses the C# compiler that already comes with Windows, so there is nothing to install.
 
 ## More details
 
